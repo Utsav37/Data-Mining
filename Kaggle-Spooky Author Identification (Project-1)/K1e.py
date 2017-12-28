@@ -112,7 +112,5 @@ for i in op.columns:
         op.ix[j,i]=op.ix[j,i]/op1[j]
 op["id"] = dt.ix[:,0]
         
-op.to_csv("jeevan5.csv")
-        
     
 
