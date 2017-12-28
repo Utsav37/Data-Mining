@@ -109,7 +109,6 @@ for i in range(len(j2)):
     H1.append(H/len(j2[i]))
 
 op=pd.DataFrame(np.column_stack([dt.ix[:,0],E1,H1,M1],columns=["id","EAP","HPL","MWS"])
-#op.to_csv("jeevan.csv")
             
 
 
