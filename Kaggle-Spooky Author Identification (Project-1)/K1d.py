@@ -115,4 +115,3 @@ op=pd.DataFrame(np.column_stack([E1,H1,M1]),columns=["EAP","HPL","MWS"])
 op1= op.apply(np.sum,axis=1)
 op=op/op1
 op.ix[:,"id"]=dt.ix[:,0]
-#op.to_csv("jeevan4.csv")
